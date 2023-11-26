@@ -5,6 +5,13 @@
   font-family: 'Open Sans', sans-serif;
 } 
 
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Define a altura mínima da tela */
+}
+
 html, body #root{
   background-color: #efefef;
   height: 100%;

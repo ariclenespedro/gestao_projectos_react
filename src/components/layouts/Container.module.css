@@ -1,0 +1,21 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    flex-grow: 1; /* Faz a div crescer e ocupar o espaço restante */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .start {
+    justify-content: flex-start;
+  }
+  
+  .column {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .min-height {
+    min-height: 75%;
+  }
