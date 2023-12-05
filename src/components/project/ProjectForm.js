@@ -4,9 +4,10 @@ import Select from "../Form/Select";
 import SubmitButton from "../Form/SubmitButton";
 import styles from "./ProjectForm.module.css";
 
-function ProjectForm({btnText}) {
+function ProjectForm({handlerSubmit,projectData,btnText}) {
 
 	const [categories, setCategories] = useState([]);
+	const [project, setProject] = useState({} || projectData);
 
 	useEffect( () => {
 		fetch('http://localhost:5000/categories',{
