@@ -1,5 +1,12 @@
 {
-    "projects": [],
+    "projects": [
+        {
+            "id": "1",
+            "name": "Arte",
+            "budget": "100"
+
+        }
+    ],
     "categories": [
         {
             "id": 1,
@@ -17,7 +24,7 @@
 
         },
         {
-            "id": 3,
+            "id": 4,
             "name": "Analytics"
 
         }

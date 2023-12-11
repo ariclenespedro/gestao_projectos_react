@@ -23,6 +23,7 @@ function NewProject() {
     .then(
       (data) => {
         console.log(data)
+        //redirect
       }).catch((error) => console.log(error))
   }
 
