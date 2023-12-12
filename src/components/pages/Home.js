@@ -4,14 +4,13 @@ import LinkButton from "../layouts/LinkButton";
 
 function Home() {
   return (
-    <selection className={styles.home_container}>
+    <section className={styles.home_container}>
       <h1>Bem-vindo ao <span>Costs</span></h1>
       <p>Comece a gerenciar os seus projectos agora mesmo!</p>
       <LinkButton to="/newproject" text="Criar projecto" />
-      <img src={savings} alt="Costs" srcset="" />
-    </selection>
-  )
-
+      <img src={savings} alt="Costs" srcSet="" />
+    </section>
+  );
 }
 
 export default Home;

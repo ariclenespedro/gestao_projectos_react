@@ -1,32 +1,176 @@
 {
-    "projects": [
-        {
-            "id": "1",
-            "name": "Arte",
-            "budget": "100"
-
-        }
-    ],
-    "categories": [
-        {
-            "id": 1,
-            "name": "Infrastructure"
-
-        },
-        {
-            "id": 2,
-            "name": "Development"
-
-        },
-        {
-            "id": 3,
-            "name": "Design"
-
-        },
-        {
-            "id": 4,
-            "name": "Analytics"
-
-        }
-    ] 
+  "projects": [
+    {
+      "id": "1",
+      "name": "Arte",
+      "budget": "100"
+    },
+    {
+      "id": "lDdqJj7"
+    },
+    {
+      "id": "pjJgXlq"
+    },
+    {
+      "id": "MPqnfiQ"
+    },
+    {
+      "id": "ss46YXG"
+    },
+    {
+      "id": "QZDeyov"
+    },
+    {
+      "id": "OjbTlJ-"
+    },
+    {
+      "id": "UJCcgcT"
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "id": "4l36iEe"
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "id": "OCYdgax"
+    },
+    {
+      "cost": 0,
+      "services": [],
+      "id": "CvDi_aj"
+    },
+    {
+      "name": "Colaborador ",
+      "budget": "2344",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": "jWb6TlK"
+    },
+    {
+      "name": "Sistema de Gestão dos Autores e Compositores de Angola",
+      "budget": "560000",
+      "category": {
+        "id": "2",
+        "name": "Development"
+      },
+      "cost": 0,
+      "services": [],
+      "id": "GhKcrWi"
+    },
+    {
+      "name": "Sistema de Gestão dos Autores e Compositores de Angola",
+      "budget": "560000",
+      "category": {
+        "id": "2",
+        "name": "Development"
+      },
+      "cost": 0,
+      "services": [],
+      "id": "g13PJtH"
+    },
+    {
+      "name": "Sistema de Gestão dos Autores e Compositores de Angola",
+      "budget": "560000",
+      "category": {
+        "id": "2",
+        "name": "Development"
+      },
+      "cost": 0,
+      "services": [],
+      "id": "0nJa46_"
+    },
+    {
+      "name": "Sistema de Gestão dos Autores e Compositores de Angola",
+      "budget": "3444555",
+      "category": {
+        "id": "4",
+        "name": "Analytics"
+      },
+      "cost": 0,
+      "services": [],
+      "id": "6nKowvU"
+    },
+    {
+      "name": "arte",
+      "budget": "2334",
+      "category": {
+        "id": "2",
+        "name": "Development"
+      },
+      "cost": 0,
+      "services": [],
+      "id": "cp0AwhC"
+    },
+    {
+      "name": "Sprint 4 - Formação On-Job | Fase 1 - Departamentos A B C",
+      "budget": "2331",
+      "cost": 0,
+      "services": [],
+      "id": "yOz4MGm"
+    },
+    {
+      "name": "Sprint 4 - Formação On-Job | Fase 2 - Uni. CCUB e SET",
+      "budget": "12111",
+      "cost": 0,
+      "services": [],
+      "id": "XBIiIZI"
+    },
+    {
+      "name": "Teste de carga",
+      "budget": "34455",
+      "category": {
+        "id": "2",
+        "name": "Development"
+      },
+      "cost": 0,
+      "services": [],
+      "id": "-PFTbXQ"
+    },
+    {
+      "name": "Sistema de Gestão dos Autores e Compositores de Angola",
+      "budget": "4646",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": "NOoc-on"
+    },
+    {
+      "name": "Colaborador ",
+      "budget": "23111",
+      "category": {
+        "id": "2",
+        "name": "Development"
+      },
+      "cost": 0,
+      "services": [],
+      "id": "kbbecLF"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infrastructure"
+    },
+    {
+      "id": 2,
+      "name": "Development"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Analytics"
+    }
+  ]
 }
