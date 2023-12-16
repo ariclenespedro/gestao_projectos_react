@@ -1,17 +1,5 @@
 {
   "projects": [
-    
-    {
-      "name": "Sistema de Gestão dos Autores e Compositores de Angola",
-      "budget": "560000",
-      "category": {
-        "id": "2",
-        "name": "Development"
-      },
-      "cost": 0,
-      "services": [],
-      "id": "g13PJtH"
-    },
     {
       "name": "arte",
       "budget": "2334",
@@ -24,17 +12,6 @@
       "id": "cp0AwhC"
     },
     {
-      "name": "Teste de carga",
-      "budget": "34455",
-      "category": {
-        "id": "2",
-        "name": "Analytics"
-      },
-      "cost": 0,
-      "services": [],
-      "id": "-PFTbXQ"
-    },
-    {
       "name": "Colaborador ",
       "budget": "23111",
       "category": {
@@ -44,10 +21,19 @@
       "cost": 0,
       "services": [],
       "id": "kbbecLF"
+    },
+    {
+      "name": "Teste",
+      "budget": "1223",
+      "category": {
+        "id": "2",
+        "name": "Development"
+      },
+      "cost": 0,
+      "services": [],
+      "id": "BX__g-L"
     }
   ],
-
-
   "categories": [
     {
       "id": 1,
