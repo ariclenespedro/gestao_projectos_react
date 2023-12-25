@@ -24,9 +24,10 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
 
   const submit = (e) => {
     e.preventDefault();
-	console.log('Valores do projeto:', project);
-    handleSubmit({project});
+    console.log('Valores do projeto:', project);
+    handleSubmit({project}); // Passa diretamente o objeto project, sem envolvê-lo
   }
+  
 
   function handleChange(e) {
     setProject({ ...project, [e.target.name]: e.target.value })
@@ -34,14 +35,21 @@ function ProjectForm({ handleSubmit, btnText, projectData }) {
   }
 
   function handleCategory(e) {
+    console.log('Seleção de categoria:', e.target.options[e.target.selectedIndex].text);
     setProject({
       ...project,
       category: {
         id: e.target.value,
         name: e.target.options[e.target.selectedIndex].text,
       },
-    })
+    });
+    console.log("Projecto");
+    console.log(project);
   }
+
+  console.log("Categiria");
+  console.log(categories);
+  
 
   return (
     <form onSubmit={submit} className={styles.form}>
